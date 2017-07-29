@@ -1,0 +1,98 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/* -- Universal Styles for Multiple Sections -- */
+body {
+  line-height: 1.4rem;
+}
+
+.title {
+  color: white;
+}
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.sign {
+  display: flex;
+}
+
+/* -- Styles for Main Banner Section -- */
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+nav {
+  background-color: cadetblue;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.menu ul {
+  margin-right: 1rem;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.mobile-menu {
+  display: none; /* -- Only for Mobile Screens -- */
+}
+
+header .sign {
+  justify-content: flex-end;
+}
+
+.banner {
+  background-color: white;
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.banner span {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* -- Styles for Footer -- */
+footer {
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
