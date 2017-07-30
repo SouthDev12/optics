@@ -81,6 +81,56 @@ header .sign {
   line-height: 1.2;
 }
 
+/* -- Styles for Feature and Details Sections -- */
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
+  height: 8rem;
+  width: 5rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-item span {
+  height: 3rem;
+  text-align: center;
+}
+
+#paper {
+  width: 3.5rem;
+}
+
+#ruler, #truck {
+  width: 5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-item {
+  width: 35%;
+  padding-right: 5%;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-item h3 {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
 /* -- Styles for Footer -- */
 footer {
   background-color: azure;
