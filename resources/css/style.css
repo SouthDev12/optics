@@ -44,7 +44,7 @@ nav div {
   align-items: center;
 }
 
-.title img {
+.corporate-name img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
@@ -145,4 +145,125 @@ footer {
 .copyright img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+
+/* --Media Queries for Tablet Size -- */
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .banner span {
+    font-size: 1.33rem;
+  }
+}
+
+
+/* --MMedia Queries for Mobile Size -- */
+@media only screen and (max-width: 640px) {
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .corporate-name span {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  .mobile-menu ul li {
+    display: inline;
+    padding: 0 1rem;
+  }
+
+  header .sign {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 100%;
+    margin: 9rem 0 0 0;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .banner span {
+    font-size: 1rem;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto;
+  }
+
+  .feature-item {
+    height: auto;
+    padding: 0;
+  }
+
+  #paper, #ruler, #truck {
+    padding-top: 0.77rem;
+  }
+
+  .feature-item span {
+    padding-top: 0.77rem;
+    height: auto;
+    font-size: 0.77rem;
+    line-height: normal;
+  }
+
+  .details {
+    display: inline;
+  }
+
+  .detail-item {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-item h3 {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .detail-item span {
+    font-size: 0.77rem;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
+  .copyright span {
+    display: none;
+  }
 }
